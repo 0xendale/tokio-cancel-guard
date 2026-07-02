@@ -182,12 +182,6 @@ tracked.await;
 println!("polled {} times", poll_count.load(Ordering::SeqCst));
 ```
 
-## Architecture
-
-See [`document_architect.md`](../document_architect.md) for a detailed
-walkthrough of the memory layout, state machines, and design decisions behind
-each primitive.
-
 ## License
 
 MIT

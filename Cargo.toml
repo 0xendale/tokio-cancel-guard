@@ -9,6 +9,7 @@ readme = "README.md"
 documentation = "https://docs.rs/tokio-cancel-guard"
 keywords = ["tokio", "async", "cancellation", "future", "select"]
 categories = ["asynchronous", "concurrency"]
+exclude = ["rust-toolchain.toml", "rustfmt.toml"]
 
 [dependencies]
 pin-project = "1"
